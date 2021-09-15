@@ -14705,6 +14705,7 @@ section.u-image,
 .u-video-poster:after {
   box-sizing: initial;
 }
+.pswp .embed-responsive,
 .u-video .embed-responsive {
   width: 100%;
   height: 100%;
@@ -35061,7 +35062,6 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-group-1 {
   width: 585px;
   min-height: 108px;
-  height: auto;
   margin: 76px auto 0 64px;
 }
 
@@ -35090,19 +35090,25 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-group-2 {
   width: 340px;
-  margin: 33px auto 0 0;
+  height: auto;
+  min-height: 141px;
+  margin: 174px 252px 60px auto;
 }
 
 .u-header .u-text-3 {
   font-weight: 700;
   font-size: 1.875rem;
   animation-duration: 1000ms;
-  width: auto;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .u-header .u-btn-1 {
   background-image: none;
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 1rem;
+  margin: 20px auto 0;
 }
 @media (max-width: 1199px) {
   .u-header {
@@ -35113,7 +35119,6 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 588px;
     min-height: 114px;
     margin-left: 64px;
-    height: auto;
   }
 
   .u-header .u-text-1 {
@@ -35133,6 +35138,16 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     margin-top: -114px;
     margin-right: 42px;
+  }
+
+  .u-header .u-group-2 {
+    margin-top: 186px;
+    margin-right: 54px;
+    height: auto;
+  }
+
+  .u-header .u-text-3 {
+    width: auto;
   }
 }
 @media (max-width: 991px) {
@@ -35161,6 +35176,12 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     margin-top: -126px;
     margin-right: 0;
+  }
+
+  .u-header .u-group-2 {
+    margin-top: 130px;
+    margin-right: auto;
+    margin-left: 141px;
   }
 }
 @media (max-width: 767px) {
@@ -35197,6 +35218,11 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 74px;
     height: 95px;
     margin-top: 14px;
+  }
+
+  .u-header .u-group-2 {
+    margin-top: -17px;
+    margin-left: 78px;
   }
 }
 @media (max-width: 575px) {
@@ -35237,10 +35263,14 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-group-2 {
     min-height: 130px;
     margin-top: 7px;
-    margin-bottom: 60px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
+  }
+
+  .u-header .u-text-3 {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-header .u-btn-1 {
@@ -35250,7 +35280,8 @@ a.u-link.u-text-hover-grey-90:hover {
     letter-spacing: 1px;
     font-size: 1.5rem;
     animation-duration: 250ms;
-    margin: 16px auto 0 99px;
+    margin-top: 16px;
+    margin-left: 99px;
   }
 }
 .u-footer {
