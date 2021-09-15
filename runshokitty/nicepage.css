@@ -35278,7 +35278,8 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-btn-1 {
-    margin-top: 26px;
+    animation-duration: 250ms;
+    margin-top: 16px;
     margin-left: auto;
   }
 }
@@ -35306,7 +35307,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 36px;
+    min-height: 11px;
   }
 }
 
