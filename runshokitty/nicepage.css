@@ -35088,22 +35088,21 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -41px 186px 0 auto;
 }
 
+.u-header .u-group-2 {
+  width: 340px;
+  margin: 33px auto 0 0;
+}
+
 .u-header .u-text-3 {
   font-weight: 700;
   font-size: 1.875rem;
   animation-duration: 1000ms;
-  margin: 167px 186px 0 625px;
+  width: auto;
+  margin: 0 auto;
 }
 
 .u-header .u-btn-1 {
-  border-style: solid;
-  letter-spacing: 1px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 1.5rem;
   background-image: none;
-  animation-duration: 1500ms;
-  margin: 24px 279px 60px auto;
 }
 @media (max-width: 1199px) {
   .u-header {
@@ -35135,18 +35134,6 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: -114px;
     margin-right: 42px;
   }
-
-  .u-header .u-text-3 {
-    width: auto;
-    margin-top: 212px;
-    margin-right: 60px;
-    margin-left: 542px;
-  }
-
-  .u-header .u-btn-1 {
-    margin-top: 17px;
-    margin-right: 157px;
-  }
 }
 @media (max-width: 991px) {
   .u-header {
@@ -35174,18 +35161,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     margin-top: -126px;
     margin-right: 0;
-  }
-
-  .u-header .u-text-3 {
-    width: 419px;
-    margin-top: 123px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .u-header .u-btn-1 {
-    margin-top: 12px;
-    margin-right: auto;
   }
 }
 @media (max-width: 767px) {
@@ -35223,18 +35198,6 @@ a.u-link.u-text-hover-grey-90:hover {
     height: 95px;
     margin-top: 14px;
   }
-
-  .u-header .u-text-3 {
-    width: auto;
-    margin-top: -13px;
-    margin-right: 74px;
-    margin-left: 47px;
-  }
-
-  .u-header .u-btn-1 {
-    margin-top: 14px;
-    margin-left: 177px;
-  }
 }
 @media (max-width: 575px) {
   .u-header {
@@ -35271,16 +35234,23 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-right: -271px;
   }
 
-  .u-header .u-text-3 {
-    margin-top: 33px;
-    margin-left: 0;
-    margin-right: 0;
+  .u-header .u-group-2 {
+    min-height: 130px;
+    margin-top: 7px;
+    margin-bottom: 60px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-header .u-btn-1 {
+    border-style: solid;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
     animation-duration: 250ms;
-    margin-top: 16px;
-    margin-left: auto;
+    margin: 16px auto 0 99px;
   }
 }
 .u-footer {
